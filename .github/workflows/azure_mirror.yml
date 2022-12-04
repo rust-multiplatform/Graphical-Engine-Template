@@ -15,4 +15,3 @@ jobs:
     - run: git push --prune "https://me:$AZURE_TOKEN@dev.azure.com/Rust-Multiplatform/Graphical%20Engine%20Template/_git/Graphical%20Engine%20Template" +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*
       env:
         AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
-
